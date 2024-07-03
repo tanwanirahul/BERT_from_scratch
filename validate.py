@@ -56,4 +56,4 @@ if __name__ == "__main__":
 
     # compare the results.
     is_equal = torch.equal(last_hidden_states, hf_last_hidden_states)
-    print(f"\nDo outputs match: {is_equal}")    
+    print(f"\nDo outputs match: {is_equal}")
